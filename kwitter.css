@@ -1,0 +1,19 @@
+#login_img{
+    float:left;
+}
+
+body{
+    background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+}
+
+.row{
+    background-color: white;
+    border-radius:50px;
+    border:5px ridge rgb(159, 212, 234);
+    margin:100px 0px;
+    box-shadow:8px 8px 9px;
+}
+
+#main_img{
+    border-radius:50px;
+}

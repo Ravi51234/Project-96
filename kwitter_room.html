@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Lets Chat!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link rel="stylesheet" href="kwitter_room.css">
+        <script src="kwitter_room.js"></script>
+    </head>
+    <body>
+        <button onclick="logout()" id="logout" class="btn btn-danger">Log Out</button>
+        <br>
+        <br>
+        <center>
+            <div class="container">
+                <h1>Let's Chat!!!</h1>
+                <br>
+                <h2 id="user_name"></h2>
+                <br>
+                <input type="text" class="form-control" id="room_name" placeholder="Room Name">
+                <br>
+                <button onclick="addRoom()" class="btn btn-success">Add Room</button>
+                <br>
+                <br>
+                <h2>#TRENDING CHATS</h2>
+                <div id="output"></div>
+            </div>
+        </center>
+    </body>
+</html>
